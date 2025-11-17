@@ -29,7 +29,8 @@ The results clearly demonstrate the difference between ideal simulation and real
 * The **AerSimulator** (blue) perfectly isolates the marked state `1010` with nearly 100% probability, as expected from the theory.
 * The **IBM Fez** backend (orange) also correctly identifies `1010` as the most probable outcome. However, the presence of noise on the device results in other, incorrect states being measured with non-trivial probability.
 
-![alt text](image.png)
+<img width="689" height="490" alt="image" src="https://github.com/user-attachments/assets/f758f7fa-d00f-4e3f-a73b-cdd7810d2ab2" />
+
 
 ##  Tools Used
 
@@ -37,4 +38,5 @@ The results clearly demonstrate the difference between ideal simulation and real
 * **Qiskit**: For quantum circuit construction, simulation, and hardware execution.
 * **Qiskit-IBM-Runtime**: For managing jobs on real IBM quantum backends.
 * **NumPy**: For numerical calculations.
+
 * **Matplotlib / Qiskit Visualization**: For plotting results.
